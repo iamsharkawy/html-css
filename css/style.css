@@ -1,0 +1,60 @@
+/* common */
+/*
+
+* container 
+*opacity hover
+*section header
+*section padding
+* hover effect 1 ( left to right )
+* hover effect 2 ( top to bottom )
+
+*/
+/* General css styles */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Header */
+.header {
+    background: gray;
+}
+
+.header .logo {
+    width: 40%;
+    float: left;
+}
+
+.header .nav {
+    width: 60%;
+    float: left;
+    list-style: none;
+}
+
+.header .nav li {
+    display: inline-block;
+}
+
+.header .nav li a {
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: 30px 10px;
+    
+}
